@@ -1,0 +1,67 @@
+a { color: #FAAE00; font-weight: 700; text-decoration: none;}
+a:hover { color: #d39400d7;}
+html { font-family: Arial, Helvetica, sans-serif; background-color: #fff2ea;}
+body { margin: 0px;}
+.margem { width: 90%; max-width: 1280px; margin: auto;}
+header, footer { background-image: url(./fotos/background.png);}
+h1 { margin-top: 0%; padding-top: 1.3rem;}
+h1, h2 { color: #FAAE00;}
+h3, h4 { color: rgb(138, 0, 0);}
+ul { list-style-type: none;}
+h1, h2 { text-align: center;}
+header { position: fixed; top:0px; width: 100%; z-index: 1000; height: 100px; text-align: center;}
+header h1, header h2 { font-family: 'Arial Narrow Bold';display: inline-block; margin-top: 15px; margin-bottom: 5px; margin-right: 8px; margin-left: 8px; padding: 0px;}
+header h2 { font-size: 1.5rem;}
+header ul { display: flex; justify-content: space-evenly; padding: 10px; margin: 0px; }
+header div ul li { transition: transform 1.5s; font-weight: 700;}
+header div ul li:hover { transform: scale(1.5, 1.6);}
+header a { color: #FAAE00; font-size: 20px;}
+header a:hover { color: #c58a00;}
+.pronto { text-align: center;}
+.unidades { text-align: center;}
+.unidades ul { display: flex; flex-wrap: wrap; padding: 10px; justify-content: space-evenly; width: 65%; margin-left: auto; margin-right: auto;}
+.unidades ul li { font-size: 18px; font-weight: 600; flex-basis: 120px; padding: 8px; margin: 5px;  border: solid 2px  rgb(199, 2, 2); }
+.unidades a { color: #FAAE00; }
+.unidades a:hover { color: #c58a00;}
+.centro { text-align: center;}
+.link-whats { padding: 5px;}
+.l45 { width: 300px; overflow: hidden; padding-bottom: 10px; display: flex; flex-direction: row-reverse; justify-content: space-between; margin-left: auto; margin-right: auto;}
+.l46 { width: 300px;; overflow: hidden; padding-bottom: 10px; display: flex; flex-direction: row-reverse; justify-content: space-between; margin-left: auto; margin-right: auto;}
+.l47 { width: 300px; overflow: hidden; padding-bottom: 10px; display: flex; flex-direction: row-reverse; justify-content: space-between; margin-left: auto; margin-right: auto;}
+.l48 { width: 300px; overflow: hidden; padding-bottom: 10px; display: flex; flex-direction: row-reverse; justify-content: space-between; margin-left: auto; margin-right: auto;}
+.direita { text-align: center; justify-content: center;}
+.direita p { width: 172px; text-align: center}
+.direita div a { border: black 1px solid; padding: 3px; font-size: 30px; background-color: rgb(0, 145, 0); color: white; height: 32px;}
+.dir-p { float: right; padding-left: 15px;}
+table { font-size: 20px; margin-left: auto; margin-right: auto; margin-bottom: 1.5rem;}
+.formas ul { display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+.trigo { position: absolute; top: 30px; left: 10%;}
+.trigo2 { width: 180px; height: 180px;}
+.formas h4 { text-align: center;}
+footer { position: relative; top: 185px;}
+footer h3 {color: rgb(245, 245, 245); font-weight: 400}
+footer h3:first-of-type { padding-top   : 8px; }
+footer h3:last-of-type { margin-top: 10px; }
+footer ul { padding-left: 0px; max-width: 600px; margin-left: auto; margin-right: auto; margin-top: 8px; margin-bottom: 0px;}
+footer ul:last-of-type { margin-bottom: 0px; padding-bottom: 16px; }
+footer ul li { line-height: 1.5; font-size: 19px; color: rgb(245, 245, 245); width: 260px; display: inline-block; margin-left: 8px; margin-right: 8px; margin-bottom: 10px; }
+.enderecos { display: flex; flex-wrap: wrap; justify-content: space-evenly;;}
+#conteudo { position: relative; top: 120px; }
+
+@media screen and (max-width: 768px) {
+    .enderecos { flex-direction: column;}
+    .trigo { display: flex; justify-content: center; align-items: center; position: relative; left: 0px; top: 0px; }
+    .trigo2 { opacity: 0.6;} 
+}
+
+@media screen and (max-width: 648px) {
+    .display ul { flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 520px) {
+    header { height: 200px; position: static;}
+    footer { position: static;}
+    #conteudo { position: static; }
+    header ul { flex-direction: column; text-align: center; padding-top: 0px; padding-bottom: 10px; position: static; }
+    header ul li {margin-top: 10px;}
+}

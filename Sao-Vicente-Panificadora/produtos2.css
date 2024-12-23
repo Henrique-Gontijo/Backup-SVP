@@ -1,0 +1,59 @@
+.bolo1, .bolo2, .bolo3, .bolo4, .bolo5, .bolo6 {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.75);
+}
+
+.salgado1, .salgado2, .salgado3, .salgado4, .salgado5, .salgado6 {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.75);
+}
+
+.doce1, .doce2, .doce3, .doce4, .doce5, .doce6 {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.75);
+}
+
+.pao1, .pao2, .pao3, .pao4, .pao5, .pao6 {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.75);
+}
+
+.quitanda1, .quitanda2, .quitanda3, .quitanda4, .quitanda5, .quitanda6 {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px 0px rgba( 0, 0, 0, 0.75);
+}
+
+.img8 { width: 20%; transition: .6s;}
+.img8 img {width: 100%; height: 100%;}
+input {display: none;}
+.a1 { width: 15px; height: 15px; border: 2px solid black; margin: 6px; border-radius: 15px; cursor: pointer; transform: .5s ease;}
+.a1:hover { background-color: black;}
+.nav1 {display: flex}
+#slide1:checked ~ .s1 { margin-left: 0%;}
+#slide2:checked ~ .s1 { margin-left: -20%;}
+#slide3:checked ~ .s1 { margin-left: -40%;}
